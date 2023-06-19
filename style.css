@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    font-family: Inter;
+}
+
+#logodnc{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 70px;
+    padding: 30px;
+}
+
+#menusuperior{
+    background-color: #303030;
+    height: 475px;
+    left: 0px;
+    top: 0px;
+    color: #ffffff;
+}
+
+#titulo-menusuperior{
+    margin-left: 60px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+#texto-menusuperior{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#menuinfo{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    height: 180px;
+}
+
+#textoinfo{
+    margin: 50px 30px 50px 80px;
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+#arquiteto{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoarquiteto{
+    height: 161px;
+    left: 77px;
+    top: 1003px;
+    size: 24px;
+    font-weight: 500;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 20px;
+    margin: 260px 25px 50px 100px;
+}
+
+.imagemobra{
+    margin: 80px 25px 50px 50px;
+    margin-right: 50px;
+}
+
+.p-arquiteto{
+    font-size: 22px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#forms{
+    text-align: center;
+    background-color: #303030;
+}
+
+.titulo-forms{
+    font-size: 30px;
+    margin: 25px;
+    padding: 50px 0px 10px 0px;
+    color: #ffffff;
+}
+
+input{
+    height: 72px;
+    width: 400px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+button{
+    background-color: #C07212;
+    height: 74px;
+    width: 286px;
+    color: #eaece5;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6e430f;
+    color: white;
+    transform: translateY(-8px);
+    box-shadow: 0px 15px 20px #9e6014;
+    transition: 0.8s;
+}
